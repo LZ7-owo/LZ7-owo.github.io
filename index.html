@@ -22,6 +22,12 @@
 				margin: 0;
 			}
 		</style>
+    	<script src="assets/js/menu.js"></script>
+		<script>
+			window.onload = function() {
+				setTchMenu();
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -45,18 +51,14 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<h2 style="margin-bottom: 3em;">
-							<i class="fas fa-leaf"></i>
-							导航
-						</h2>
-						<ul>
-							<li><a href="index.html">图形学</a></li>
-							<li><a href="">艺术设计</a></li>
-							<li><a href="">编程</a></li>
-							<li><a href="">关于</a></li>
-						</ul>
-					</nav>
+				<!--内容在manu.js中-->
+				<nav id="menu">
+					<h2 style="margin-bottom: 3em;" id="menu_title">
+					</h2>
+					<ul id="menu_content">
+					</ul>
+				</nav>
+
 
 				<!-- Main -->
 					<div id="main">
@@ -232,6 +234,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
