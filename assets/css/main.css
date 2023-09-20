@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9d6c6c !important;
+			color:  #f2849e !important;
 		}
 
 	strong, b {
@@ -200,7 +200,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.15em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2994,7 +2994,7 @@ input, select, textarea {
 		visibility: hidden;
 		z-index: 10002;
 		text-align: center;
-		background: linear-gradient(0.12turn, #17171e, #472d2d);
+		background: linear-gradient(0.12turn, #393939, #7b3b47);
 	}
 
 		#menu > .inner {
@@ -3337,6 +3337,11 @@ input, select, textarea {
 @font-face{
 	font-family: "yunjs";
 	src: url(' ../webfonts/字魂602号-云锦宋.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  	}
+
+	@font-face{
+	font-family: "jinbang";
+	src: url(' ../webfonts/金榜招牌体.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   	}
 
 @font-face{
